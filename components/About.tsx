@@ -14,7 +14,7 @@ const stats = [
 export default function About() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
-
+console.log("About section in view:");
   return (
     <section id="about" className="section-padding relative overflow-hidden" style={{ background: "var(--bg-secondary)" }}>
       {/* Floating animated blobs */}
